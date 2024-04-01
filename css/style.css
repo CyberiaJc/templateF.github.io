@@ -291,7 +291,7 @@ background-color: rgb(10, 18, 94) !important;
 
 
     
-/* Navbar */
+
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
@@ -1434,6 +1434,21 @@ background-color: rgb(10, 18, 94) !important;
 
 
 
+
+
+
+/* Navbar */
+.site-navigation {
+  z-index: 2000 !important; 
+}
+
+.overlap-section {
+  z-index: 0; /* Establece un z-index más bajo para que esté por debajo del navbar */
+}
+
+
+
+
   .headersSite{
 
 color: #000;
@@ -1535,15 +1550,43 @@ border-radius: 5%;
 
 }
 
+.img-container {
+  text-align: center;
+}
 
 
 
 .imgpx{
 
-height: 500px !important;
+height: 450px !important;
 width: 100%;
+display: inline-block;
 
 }
+
+
+
+  
+.imgSpace{
+  align-items: center;
+ 
+  
+  }
+  
+    
+   .imgSpace img{
+  margin-top: 10%;
+  width: 100%;
+  height: 100px;
+  
+   }
+  
+   @media (max-width: 768px) {
+    .imgSpace img {
+      width: 50%;
+   } }
+   
+
 
     
 
@@ -1571,11 +1614,3 @@ width: 100%;
       margin-top: 20px; 
   }
 
-  
- .imgfooter{
-
-  padding: 10%;
-  border-radius: 10%;
-  width: 400px;
-  height: 200px;
- }
