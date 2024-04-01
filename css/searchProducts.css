@@ -1,0 +1,170 @@
+
+    .filterinput {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        box-sizing: border-box; /* Para que el padding no afecte el ancho total */
+    }
+  
+    .filterinput::placeholder {
+        text-align: center;
+    }
+    
+    
+
+  .department_section {
+    position: relative;
+
+  }
+  
+  .department_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 45px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .department_section .box .img-box {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+    background-color: #1a2b8b;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+
+  
+  .department_section .box .img-box img {
+    max-width: 55px;
+    max-height: 55px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .department_section .box .detail-box h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .department_section .box .detail-box a {
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .department_section .box .detail-box a:hover {
+    color: #000000;
+  }
+  
+
+  .department_section .box .img-box img {
+    max-width: 55px;
+    max-height: 55px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .department_section .box .detail-box h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .department_section .box .detail-box a {
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .department_section .box .detail-box a:hover {
+    color: #000000;
+  }
+  
+  .department_section .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .department_section .btn-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid #0a0a0a;
+  }
+  
+  .department_section .btn-box a:hover {
+    background-color: transparent;
+    color: #020202 !important;
+  }
+
+
+
+  
+  .grid {
+    margin: 10px;
+ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crear tres columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las celdas del grid */
+    justify-items: center; /* Centrar horizontalmente los elementos en el grid */
+}
+
+/* Estilos para los elementos dentro del grid */
+.item {
+    width: 100%; /* Ancho completo del grid */
+    text-align: center; /* Alinear contenido horizontalmente */
+   
+}
+    
+    
+.colorPulg{
+color: white;
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* Cambiar a dos columnas en pantallas más estrechas */
+    }
+}
+
+/* Estilos para pantallas de hasta 500px de ancho */
+@media screen and (max-width: 500px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr); /* Cambiar a una sola columna en pantallas aún más estrechas */
+    }
+}
+    
+    
+    
+    
